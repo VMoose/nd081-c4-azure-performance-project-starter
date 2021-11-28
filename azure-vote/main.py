@@ -21,6 +21,7 @@ from opencensus.trace.samplers import ProbabilitySampler
 from opencensus.trace.tracer import Tracer
 from opencensus.ext.flask.flask_middleware import FlaskMiddleware
 
+INSIGHTS_CONN_STR = "InstrumentationKey=2ecc1607-d7ec-4f3d-8c1d-17a8e23e48f5;IngestionEndpoint=https://westus2-2.in.applicationinsights.azure.com/"
 # Logging
 logger = logging.getLogger(__name__)
 logger.addHandler(
